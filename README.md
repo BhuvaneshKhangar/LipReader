@@ -1,6 +1,7 @@
 # LipReader - LipNet Full Stack Application
 
 LipReader is a full-stack application developed from the LipNet deep learning model. This application converts video files to MP4 format, displays the video and  and demonstrates the lip-reading capabilities of the LipNet model.
+
 ![LipReader Screenshot](image.png)
 
 ## Features
@@ -60,21 +61,11 @@ Follow these steps to set up the project locally:
 
 ## Project Structure
 
-LipNet-Full-Stack-App/
-│
-├── app/
-│   ├── streamlitapp.py     # Main Streamlit application script
-│   ├── utils.py            # Utility functions
-│   ├── modelutil.py        # Model loading functions
-│
-├── data/
-│   └── s1/                 # Sample video data
-│
-├── myenv/                  # Virtual environment
-│
-├── requirements.txt        # List of dependencies
-│
-└── README.md               # This readme file
+- `app/streamlitapp.py`: The main Streamlit application script.
+- `data/s1/`: Directory containing sample videos.
+- `img1.png`: Sidebar image for the Streamlit application.
+- `modelutil.py`: Utility functions for loading the model.
+- `utils.py`: Utility functions for loading data and converting tokens to characters.
 
 ## Troubleshooting
 
@@ -97,4 +88,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Acknowledgements
 
 - The original LipNet model developers.
-- [Streamlit](https://streamlit.io/) for providing an easy way to create web applications.
